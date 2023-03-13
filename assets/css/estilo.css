@@ -1,0 +1,130 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* seccion de navegación */
+
+.nav_color{
+    background-color: #373A3C;
+}
+
+/* separando despues de la etiqueta nav  */
+.navbar + header {
+    margin-top: 3rem ;
+}
+
+/* insertando imagen al header  */
+header {
+    background-image: url('../img/bg-hero.jpg');
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ .header_hola{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    height: 630px;
+    padding: 9rem 20px 0px 0px;
+    
+}
+.parrafo_header{
+    padding-left: 60%;
+}
+.h1_mundo {
+    font-size: 70px;
+}
+
+/* seccion principal  */
+ .span1 {
+    color: #868985;
+    font-size: 20px;
+    font-weight: 300;
+ }
+
+ .span2 {
+    color: #1fc00d;
+    font-size: 40px;
+    font-weight: 700;
+ }
+
+.acerca_mi {
+    font-size: 50px;
+}
+
+.section_trabajos {
+    background-color: #17A2B8;
+}
+
+
+
+
+
+
+
+/* seccion de cards */
+.div_card {
+    width: 18rem;
+    height: 45rem;
+}
+
+.h1_product {
+    color: #707070;
+    font-weight: 700;
+    font-size: 60px;
+}
+.h5_cola{
+    color: #373A3C;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/* para tamaño de celulares  */
+@media screen and (max-width: 576px ) {
+    .h1_product {
+        color: #707070;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .iconos_tarjeta {
+        display: none;
+    }
+}
+
+/* para tamaño de tablets */
+
+@media  (max-width: 900px) {
+    header {
+        font-size: 40px;
+
+    }
+}
+
+
+/* para celulares  */
+
+@media (max-width: 576px) {
+    
+}
+
+/* iconos de tarjetas  */
+
+.iconos_fondo{
+    background-color: #17A2B8;
+}
+
+footer {
+    background-color: #E83E8C;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+footer img {
+    height: 100px;
+}
+
+
